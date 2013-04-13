@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="tccyp" Class="BusDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=tccyp.db.10418126.hostedresource.com;Initial Catalog=tccyp;User ID=tccyp" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="tccypConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.BusTimeTable" Member="BusTimeTables">
+    <Type Name="BusTimeTable">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="BusNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FromStop" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="ToStop" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="StartTime" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="EndTime" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
