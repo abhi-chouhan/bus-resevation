@@ -13,6 +13,15 @@ namespace BusInfo {
     public partial class _Default {
         
         /// <summary>
+        /// toAllwoodlbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label toAllwoodlbl;
+        
+        /// <summary>
         /// ToAllwoodGV control.
         /// </summary>
         /// <remarks>
@@ -20,6 +29,15 @@ namespace BusInfo {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView ToAllwoodGV;
+        
+        /// <summary>
+        /// toNYlbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label toNYlbl;
         
         /// <summary>
         /// ToNYGV control.
