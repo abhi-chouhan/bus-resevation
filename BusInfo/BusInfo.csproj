@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C18B72EE-5D93-40D9-8A18-2071EE059617}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusInfo</RootNamespace>
+    <AssemblyName>BusInfo</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Recource\Travel_Bus.png" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebApp\Action\Logic.js" />
+    <Content Include="WebApp\Design\Img\bg-head.png" />
+    <Content Include="WebApp\Design\Img\bg-shop.png" />
+    <Content Include="WebApp\Design\Img\bg-switch-thumb.png" />
+    <Content Include="WebApp\Design\Img\bg-switch.png" />
+    <Content Include="WebApp\Design\Img\bg-tab-sel.png" />
+    <Content Include="WebApp\Design\Img\bg-tab-touch.png" />
+    <Content Include="WebApp\Design\Img\bg-tab.png" />
+    <Content Include="WebApp\Design\Img\bg-title.png" />
+    <Content Include="WebApp\Design\Img\bg.png" />
+    <Content Include="WebApp\Design\Img\big-button-grey.png" />
+    <Content Include="WebApp\Design\Img\big-button-red-touch.png" />
+    <Content Include="WebApp\Design\Img\big-button-red.png" />
+    <Content Include="WebApp\Design\Img\big-button-select.png" />
+    <Content Include="WebApp\Design\Img\big-button-white.png" />
+    <Content Include="WebApp\Design\Img\bullet-media.png" />
+    <Content Include="WebApp\Design\Img\button-back-touch.png" />
+    <Content Include="WebApp\Design\Img\button-back.png" />
+    <Content Include="WebApp\Design\Img\button-bg.png" />
+    <Content Include="WebApp\Design\Img\button-blue.png" />
+    <Content Include="WebApp\Design\Img\button-light.png" />
+    <Content Include="WebApp\Design\Img\button-red.png" />
+    <Content Include="WebApp\Design\Img\button-simple-touch.png" />
+    <Content Include="WebApp\Design\Img\button-simple.png" />
+    <Content Include="WebApp\Design\Img\check-dis.png" />
+    <Content Include="WebApp\Design\Img\check-sel.png" />
+    <Content Include="WebApp\Design\Img\check.png" />
+    <Content Include="WebApp\Design\Img\chevron-select.png" />
+    <Content Include="WebApp\Design\Img\chevron.png" />
+    <Content Include="WebApp\Design\Img\form-check-text.png" />
+    <Content Include="WebApp\Design\Img\form-check-texton.png" />
+    <Content Include="WebApp\Design\Img\form-head.png" />
+    <Content Include="WebApp\Design\Img\loader-gray-100x12x1.png" />
+    <Content Include="WebApp\Design\Img\loader-gray-100x12x10.png" />
+    <Content Include="WebApp\Design\Img\loader-gray-100x12x11.png" />
+    <Content Include="WebApp\Design\Img\loader-gray-100x12x12.png" />
+    <Content Include="WebApp\Design\Img\loader-gray-100x12x2.png" />
+    <Content Include="WebApp\Design\Img\loader-gray-100x12x3.png" />
+    <Content Include="WebApp\Design\Img\loader-gray-100x12x4.png" />
+    <Content Include="WebApp\Design\Img\loader-gray-100x12x5.png" />
+    <Content Include="WebApp\Design\Img\loader-gray-100x12x6.png" />
+    <Content Include="WebApp\Design\Img\loader-gray-100x12x7.png" />
+    <Content Include="WebApp\Design\Img\loader-gray-100x12x8.png" />
+    <Content Include="WebApp\Design\Img\loader-gray-100x12x9.png" />
+    <Content Include="WebApp\Design\Img\loader-white-100x12x1.png" />
+    <Content Include="WebApp\Design\Img\loader-white-100x12x10.png" />
+    <Content Include="WebApp\Design\Img\loader-white-100x12x11.png" />
+    <Content Include="WebApp\Design\Img\loader-white-100x12x12.png" />
+    <Content Include="WebApp\Design\Img\loader-white-100x12x2.png" />
+    <Content Include="WebApp\Design\Img\loader-white-100x12x3.png" />
+    <Content Include="WebApp\Design\Img\loader-white-100x12x4.png" />
+    <Content Include="WebApp\Design\Img\loader-white-100x12x5.png" />
+    <Content Include="WebApp\Design\Img\loader-white-100x12x6.png" />
+    <Content Include="WebApp\Design\Img\loader-white-100x12x7.png" />
+    <Content Include="WebApp\Design\Img\loader-white-100x12x8.png" />
+    <Content Include="WebApp\Design\Img\loader-white-100x12x9.png" />
+    <Content Include="WebApp\Design\Img\next.png" />
+    <Content Include="WebApp\Design\Img\rtl-bullet-media.png" />
+    <Content Include="WebApp\Design\Img\rtl-button-back-touch.png" />
+    <Content Include="WebApp\Design\Img\rtl-button-back.png" />
+    <Content Include="WebApp\Design\Img\rtl-chevron-select.png" />
+    <Content Include="WebApp\Design\Img\rtl-chevron.png" />
+    <Content Include="WebApp\Design\Img\select.png" />
+    <Content Include="WebApp\Design\Img\tab-bg-select.png" />
+    <Content Include="WebApp\Design\Render.css" />
+    <Content Include="WebApp\Design\RenderRTL.css" />
+    <Content Include="WebApp\Img\down.png" />
+    <Content Include="WebApp\Img\less.png" />
+    <Content Include="WebApp\Img\mas.png" />
+    <Content Include="WebApp\Img\menos.png" />
+    <Content Include="WebApp\Img\more.png" />
+    <Content Include="WebApp\Img\next.png" />
+    <Content Include="WebApp\Img\up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusDataClasses.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BusDataClasses.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Junk.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BusDataClasses.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>BusDataClasses.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Doc\T1192.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BusDataClasses.dbml.layout">
+      <DependentUpon>BusDataClasses.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55862</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
